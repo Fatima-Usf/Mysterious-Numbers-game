@@ -1,0 +1,108 @@
+@font-face{
+ src: url("Hanged Letters.ttf");
+ font-family: Hanged Letters;
+}
+body{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/numbers.jpg);
+}
+
+h1{
+  font-family:Hanged Letters;
+  font-size: 70px;
+}
+.container{
+  background:-moz-radial-gradient(center,circle,white 30% ,rgba(255,255,255,0.7));
+  background:-o-radial-gradient(center,circle,white 30% ,rgba(255,255,255,0.7));
+  background:-webkit-radial-gradient(center,circle,white 30% ,rgba(255,255,255,0.7));
+  width: 60vw;
+	height: 620px;
+  color: black;
+	margin: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	box-shadow: 2px 7px 13px gray;
+	overflow: hidden;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+}
+h4{
+  color: #384219;
+
+}
+
+section{
+  float: left;
+  padding-left: 9%;
+
+}
+main{
+  height: 70%;
+}
+input[ type=text ]{
+  text-align: center;
+  border-width: 3px;
+	border-color: black;
+  color: #384219;
+  font-size: 18px;
+  display: block;
+  margin-left:25%;
+}
+input{
+  font-size: 18px;
+  margin-top: 7%;
+  font-weight: bold;
+}
+#btn{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: black;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+#btn:hover {background-color: gray}
+#btn:active {
+  background-color: gray;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#tw{display: inline-block;
+padding: 15px 25px;
+font-size: 24px;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+outline: none;
+color: #fff;
+background-color: black;
+border: none;
+border-radius: 15px;
+box-shadow: 0 9px #999;
+display: none;
+}
+#tw:hover {background-color: gray}
+#tw:active {
+  background-color: gray;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+aside img{
+margin-right: 4%;
+  width: 35vh;
+  float: right;
+}
+
+footer img{
+  position: relative;
+  width: 60vw;
+  height: 30%;
+
+}
