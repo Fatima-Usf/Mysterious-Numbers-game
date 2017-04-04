@@ -4,7 +4,7 @@
   'use strict';
     var playBtn = document.getElementById('btn');
     
-  //création d'un fonction qui retien un nombre aléatoire et la stoqué dans une variable
+  //création d'une fonction qui retien un nombre aléatoire et la stoqué dans une variable
     var getRandom = function(){
     return Math.round(Math.random()*99) + 1;
   }
